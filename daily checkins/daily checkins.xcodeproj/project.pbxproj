@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0070F74A282607F600D4D346 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0070F749282607F600D4D346 /* SignUp.swift */; };
+		0070F74C282608D800D4D346 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0070F74B282608D800D4D346 /* Welcome.swift */; };
+		0070F74E282609D800D4D346 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0070F74D282609D800D4D346 /* FirstPage.swift */; };
+		0070F75028260AA500D4D346 /* image 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0070F74F28260AA500D4D346 /* image 1.png */; };
 		00C83A2F2820DC21000A2519 /* daily_checkinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C83A2E2820DC21000A2519 /* daily_checkinsApp.swift */; };
 		00C83A312820DC21000A2519 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C83A302820DC21000A2519 /* ContentView.swift */; };
 		00C83A332820DC25000A2519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C83A322820DC25000A2519 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0070F749282607F600D4D346 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0070F74B282608D800D4D346 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		0070F74D282609D800D4D346 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		0070F74F28260AA500D4D346 /* image 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 1.png"; sourceTree = "<group>"; };
 		00C83A2B2820DC21000A2519 /* daily checkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "daily checkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C83A2E2820DC21000A2519 /* daily_checkinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_checkinsApp.swift; sourceTree = "<group>"; };
 		00C83A302820DC21000A2519 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				00C83A2E2820DC21000A2519 /* daily_checkinsApp.swift */,
+				0070F74D282609D800D4D346 /* FirstPage.swift */,
+				0070F74B282608D800D4D346 /* Welcome.swift */,
+				0070F749282607F600D4D346 /* SignUp.swift */,
 				00C83A302820DC21000A2519 /* ContentView.swift */,
 				00C83A322820DC25000A2519 /* Assets.xcassets */,
 				00C83A3C28210C17000A2519 /* seed 2.png */,
+				0070F74F28260AA500D4D346 /* image 1.png */,
 				00C83A342820DC25000A2519 /* Preview Content */,
 			);
 			path = "daily checkins";
@@ -130,6 +142,7 @@
 			files = (
 				00C83A362820DC25000A2519 /* Preview Assets.xcassets in Resources */,
 				00C83A332820DC25000A2519 /* Assets.xcassets in Resources */,
+				0070F75028260AA500D4D346 /* image 1.png in Resources */,
 				00C83A3D28210C18000A2519 /* seed 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0070F74C282608D800D4D346 /* Welcome.swift in Sources */,
+				0070F74E282609D800D4D346 /* FirstPage.swift in Sources */,
 				00C83A312820DC21000A2519 /* ContentView.swift in Sources */,
+				0070F74A282607F600D4D346 /* SignUp.swift in Sources */,
 				00C83A2F2820DC21000A2519 /* daily_checkinsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

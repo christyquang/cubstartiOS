@@ -11,7 +11,10 @@ import SwiftUI
 struct daily_checkinsApp: App {
     var body: some Scene {
         WindowGroup {
+            FirstPage()
+            Welcome()
             ContentView()
+            SignUp()
         }
     }
 }
